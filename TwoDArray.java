@@ -4,17 +4,14 @@ import java.lang.reflect.Array;
 public class TwoDArray {
 
         public static void main(String[] args) {
-// 		Multiplication table of number
    	    tables();
 		DisplayAsterisk1();
 		DisplayAsterisk2();
-		DisplayAsterisk3();
+//		DisplayAsterisk3();
 		DisplayNumbers1();
 		DisplayNumbers2();
 		DisplayNumbers3();
         DisplayNumbers4();
-
-
         }
 
         private static void DisplayNumbers4() {
@@ -36,7 +33,7 @@ public class TwoDArray {
         }
 
         private static void DisplayNumbers3() {
-            System.out.println("Display numbers - centrl (1,2,3)");
+            System.out.println("Display numbers - centre (1,2,3)");
 
             int[][] Array1 = new int[10][10];
             for (int i = 0; i < 10; i++) {
@@ -125,6 +122,7 @@ public class TwoDArray {
                 } System.out.println(" ");
             }
         }
+
         public static void DisplayAsterisk2() {
             System.out.println("Asterisk in increment order - right oriented");
             int m = 10;
