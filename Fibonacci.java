@@ -1,9 +1,9 @@
+//Print Fibonacci series
 public class Fibonacci {
 
     public static void main(String[] args) {
         Fibo();
     }
-
     public static void Fibo() {
         int FibInt = 0;
         int FibPrev = 0;
