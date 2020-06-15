@@ -8,7 +8,7 @@ public class BufferReader {
 	}
 
 	private static void inputstreamread() throws IOException {
-		System.out.println("--------Paragraph .. end with Exit------------");
+		System.out.println("--------Read from system input------------");
 		InputStreamReader IR = new InputStreamReader(System.in);
 		BufferedReader BR = new BufferedReader(IR);
 	/*	int age = Integer.parseInt(BR.readLine());
@@ -24,7 +24,7 @@ public class BufferReader {
 	}
 
 	public static void readFile() throws IOException {
-		FileReader FR = new FileReader("H:\\git\\IApp\\VoterList.txt");
+		FileReader FR = new FileReader("C:\\Users\\mmushannavar\\IdeaProjects\\IApp\\VoterList.txt");
 		BufferedReader BR = new BufferedReader(FR);
 		String name = BR.readLine();
 		System.out.println("name : " + name);

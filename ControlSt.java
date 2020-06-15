@@ -1,11 +1,30 @@
 public class ControlSt {
     public static void main(String[] args) {
-        System.out.println("-----------While loop---------------");
+     /*   System.out.println("-----------While loop---------------");
         While();
         System.out.println("-----------DoWhile loop---------------");
         DoWhile(10, 12);
         System.out.println("-----------Switch control statement---------------");
         Switch();
+        foreachloop(); */
+    //    varargument(3, 4);
+        System.out.println("sum : " + varargument(3, 4, 100, 200));
+    }
+
+    private static int varargument(int...a) {
+        int sum = 0;
+        for (int b : a) {
+            sum = sum + b;
+        }
+        return sum;
+
+    }
+
+    private static void foreachloop() {
+        String[] cars = {"BMW", "Benz", "Honda", "Bogati", "Ford"};
+        for (String car : cars) {
+            System.out.println("Car names : " + car);
+        }
     }
 
     public static void Switch() {
